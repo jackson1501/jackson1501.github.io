@@ -1,182 +1,163 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Max-Q - Developer Portfolio</title>
-  <meta
-    name="description"
-    content="Portfolio developer Max-Q, mobile application developer."
-  />
-
+  <title>Max-Q Studio — Mobile App Developer</title>
+  <meta name="description" content="Max-Q Studio creates simple mobile apps for daily life, personal productivity, and practical digital tools." />
+  <meta name="theme-color" content="#031221" />
+  <link rel="icon" href="images/favicon.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <div class="bg-orb orb-a"></div>
+  <div class="bg-orb orb-b"></div>
+
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html">
-        <div class="brand-mark">Max-Q</div>
-        <div>
-          <div class="brand-name">Max-Q</div>
-          <div class="brand-subtitle">Mobile Developer</div>
-        </div>
+      <a class="brand" href="index.html" aria-label="Max-Q Studio home">
+        <img src="images/maxq_logo.png" alt="Max-Q Studio logo" />
+        <span>Max-Q Studio</span>
       </a>
 
-      <nav class="nav">
-        <a href="#projects">Project</a>
-        <a href="#focus">Focus</a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#profile">Profile</a>
+        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Developer Portfolio</p>
-
-          <h1>Develop mobile application for helping people</h1>
-
-          <p class="hero-text">
-            Max-Q is a mobile app developer focused on creating practical, reliable, and user-friendly applications that support people in their daily activities. In a world where smartphones have become part of everyday life, Max-Q aims to build digital tools that are simple to use, useful in real situations, and designed to help users manage small but important parts of their day more efficiently.
-            The name Max-Q reflects a mindset of optimization, precision, and purposeful engineering. Inspired by the idea of reaching the most efficient point under pressure, Max-Q develops mobile applications with a clear goal: to make everyday tasks easier without adding unnecessary complexity.
+    <section id="profile" class="hero section-anchor">
+      <div class="container hero-layout">
+        <aside class="profile-column reveal">
+          <p class="label">Developer Profile</p>
+          <h1>Max-Q Studio</h1>
+          <p class="profile-lead">
+            Practical & easy-to-use mobile apps for daily life.
           </p>
-
-          <div class="hero-actions">
-            <a class="button primary" href="#projects">Project List</a>
-            <a class="button secondary" href="mailto:support@maxqstudio.dev">Hubungi Developer</a>
+          <div class="profile-links">
+            <a href="#projects">View projects</a>
+            <a href="saldosehat/index.html">SaldoSehat</a>
+            <a href="pretio/index.html">Pretio</a>
+            <a href="mailto:support@maxqstudio.dev">Email support</a>
           </div>
-        </div>
-      </div>
-    </section>
+        </aside>
 
-    <section id="projects" class="section">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Featured Project</p>
-          <h2>Project yang sedang dikembangkan</h2>
-        </div>
-
-        <div class="project-card">
-          <div class="project-content">
-            <div class="project-tag">Android App</div>
-            <h3>SaldoSehat</h3>
-            <p>
-              SaldoSehat adalah aplikasi catatan keuangan pribadi untuk membantu pengguna
-              mencatat pemasukan, pengeluaran, Dompet, target, pinjaman, dan piutang
-              dengan lebih rapi.
-            </p>
-
-            <div class="project-points">
-              <span>Personal finance</span>
-              <span>Local-first</span>
-              <span>Export & backup</span>
-              <span>Template assistant</span>
-            </div>
-
-            <div class="project-actions">
-              <a class="button primary" href="GANTI_DENGAN_LINK_SALDOSEHAT_SITE" target="_blank" rel="noopener">
-                Buka Website SaldoSehat
-              </a>
-            </div>
-          </div>
-
-          <div class="project-preview">
-            <div class="mini-phone">
-              <div class="mini-top"></div>
-              <div class="mini-title">SaldoSehat</div>
-              <div class="mini-card large"></div>
-              <div class="mini-row"></div>
-              <div class="mini-row short"></div>
-              <div class="mini-nav"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-grid">
-          <article class="small-project">
-            <h3>Local-first apps</h3>
-            <p>
-              Aplikasi yang menjaga data utama tetap dekat dengan pengguna dan sederhana
-              untuk digunakan.
-            </p>
-          </article>
-
-          <article class="small-project">
-            <h3>Productivity tools</h3>
-            <p>
-              Alat bantu untuk mencatat, mengatur, dan mempercepat pekerjaan kecil
-              sehari-hari.
-            </p>
-          </article>
-
-          <article class="small-project">
-            <h3>AI-assisted workflow</h3>
-            <p>
-              Eksperimen workflow pengembangan dengan bantuan AI, tetap melalui review
-              dan validasi manual.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="focus" class="section soft">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Development Focus</p>
-          <h2>Fokus pengembangan</h2>
-        </div>
-
-        <div class="cards">
-          <article class="card">
-            <h3>Produk sederhana</h3>
-            <p>
-              Membuat aplikasi yang tidak berlebihan, mudah dipahami, dan bisa langsung
-              digunakan.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>UI yang rapi</h3>
-            <p>
-              Mengutamakan tampilan yang bersih, mudah dibaca, dan nyaman digunakan
-              di perangkat mobile.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>Iterasi bertahap</h3>
-            <p>
-              Fitur dikembangkan melalui tahap kecil, diuji, diperbaiki, lalu dikunci
-              sebagai baseline.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <div class="container narrow">
-        <div class="contact-card">
-          <p class="eyebrow">Contact</p>
-          <h2>Kontak developer</h2>
+        <section class="hero-card reveal">
+          <p class="eyebrow">About</p>
+          <h2>We build apps that are clear, useful, and easy to use.</h2>
           <p>
-            Untuk pertanyaan, kerja sama, laporan bug, atau dukungan terkait aplikasi,
-            hubungi email berikut.
+            Max-Q Studio is an independent mobile app developer focused on practical products for everyday needs. Our apps are designed to help people manage small but important parts of their day without confusing menus or unnecessary features.
+          </p>
+          <p>
+            We care about clean design, simple language, and features that solve real problems. Each product starts small, gets improved step by step, and grows only when the core experience is ready.
           </p>
 
-          <a class="email-link" href="mailto:GANTI_DENGAN_EMAIL_KAMU">
-            GANTI_DENGAN_EMAIL_KAMU
-          </a>
+          <div class="info-grid">
+            <div>
+              <span>Focus</span>
+              <strong>Mobile apps</strong>
+            </div>
+            <div>
+              <span>Style</span>
+              <strong>Clean and practical</strong>
+            </div>
+            <div>
+              <span>Support</span>
+              <strong>support@maxqstudio.dev</strong>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
 
-          <p class="note">
-            Jangan mengirim data pribadi sensitif, file backup, atau informasi keuangan
-            pribadi kecuali benar-benar diperlukan.
-          </p>
+    <section id="projects" class="section section-anchor">
+      <div class="container content-layout">
+        <div class="section-title reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Apps by Max-Q Studio</h2>
+          <p>Public pages, support links, and app information in one place.</p>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card reveal">
+            <div class="project-copy">
+              <div class="project-meta">
+                <span class="live-dot"></span>
+                <span>Finance tracker app</span>
+              </div>
+              <h3>SaldoSehat</h3>
+              <p>
+                SaldoSehat helps users record income, expenses, wallets, budgets, savings goals, debts, and receivables in a simple way.
+              </p>
+              <div class="tag-row">
+                <span>Android</span>
+                <span>Finance tracker</span>
+                <span>Easy-to-use</span>
+              </div>
+              <div class="action-row">
+                <a class="button primary" href="saldosehat/index.html">Open app page</a>
+                <a class="button secondary" href="saldosehat/privacy.html">Privacy Policy</a>
+              </div>
+            </div>
+            <div class="project-media">
+              <img src="images/saldosehat_home.png" alt="SaldoSehat app preview" />
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-copy">
+              <div class="project-meta">
+                <span class="live-dot"></span>
+                <span>Price comparison app</span>
+              </div>
+              <h3>Pretio</h3>
+              <p>
+                Pretio helps users save product prices, compare values, remember price history, and plan shopping lists in a simple way.
+              </p>
+              <div class="tag-row">
+                <span>Android</span>
+                <span>Price comparison</span>
+                <span>Support ready</span>
+              </div>
+              <div class="action-row">
+                <a class="button primary" href="pretio/index.html">Open app page</a>
+                <a class="button secondary" href="pretio/privacy.html">Privacy Policy</a>
+              </div>
+            </div>
+            <div class="project-media">
+              <img src="images/pretio_scan.png" alt="Pretio app preview" />
+            </div>
+          </article>
+
+          <div class="small-project-grid single">
+            <article class="small-project reveal">
+              <span>Coming Soon</span>
+              <h3>Horrea</h3>
+              <p>App page will be added when the product is ready.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-anchor">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Need help with a Max-Q Studio app?</h2>
+            <p>
+              Send your question, bug report, or app support request to the official support email.
+            </p>
+          </div>
+          <a class="email-button" href="mailto:support@maxqstudio.dev">support@maxqstudio.dev</a>
         </div>
       </div>
     </section>
@@ -184,14 +165,16 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>© 2026 Max Quant Lab. All rights reserved.</p>
-
+      <p>© <span id="year">2026</span> Max-Q Studio. All rights reserved.</p>
       <div class="footer-links">
-        <a href="#projects">Project</a>
-        <a href="#focus">Fokus</a>
-        <a href="#contact">Kontak</a>
+        <a href="#profile">Profile</a>
+        <a href="#projects">Projects</a>
+        <a href="saldosehat/index.html">SaldoSehat</a>
+        <a href="pretio/index.html">Pretio</a>
       </div>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
