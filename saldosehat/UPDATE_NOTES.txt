@@ -1,0 +1,19 @@
+SaldoSehat website legal-content update
+Date: July 21, 2026
+
+Updated files:
+- privacy.html
+- terms.html
+- support.html
+- index.html
+
+Unchanged file:
+- saldosehat.css
+
+Main changes:
+- English-only content throughout the included HTML files.
+- Added Google AdMob, UMP privacy choices, rewarded usage, and Google Play Billing disclosures.
+- Defined the four metered free features and hidden, non-daily usage credits.
+- Added Premium Lifetime terms, restoration language, and third-party service disclosures.
+- Expanded support FAQs for rewarded ads, Premium, restore, and privacy options.
+- Improved grammar, punctuation, accessibility labels, and metadata.

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SaldoSehat - Personal Finance Tracker</title>
+  <meta name="description" content="SaldoSehat helps you track income, expenses, wallets, savings targets, loans, receivables, exports, and local backups." />
+  <meta name="theme-color" content="#f6fff9" />
+  <link rel="icon" href="../images/saldosehat_icon.png" />
+  <link rel="stylesheet" href="saldosehat.css" />
+
+  <style>
+    .google-play-cta {
+      margin-top: 22px;
+    }
+
+    .google-play-link {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 16px;
+      transition: transform 160ms ease, filter 160ms ease;
+    }
+
+    .google-play-link:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.06);
+    }
+
+    .google-play-link:focus-visible {
+      outline: 3px solid rgba(0, 145, 76, 0.35);
+      outline-offset: 4px;
+    }
+
+    .google-play-badge {
+      display: block;
+      width: min(260px, 72vw);
+      height: auto;
+    }
+
+    @media (max-width: 640px) {
+      .google-play-cta {
+        margin-top: 18px;
+      }
+
+      .google-play-badge {
+        width: min(235px, 78vw);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="app-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="SaldoSehat home">
+        <img src="../images/saldosehat_logo.png" alt="SaldoSehat logo" />
+        <span>SaldoSehat</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="../index.html">Max-Q</a>
+        <a href="#about">About</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="support.html">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Personal finance tracker</p>
+          <h1>Track your daily finances clearly</h1>
+          <p>
+            SaldoSehat helps you record income, expenses, wallets, savings targets,
+            budgets, loans, receivables, exports, and local backups in one simple app.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="privacy.html">Read Privacy Policy</a>
+            <a class="button secondary" href="support.html">Contact Support</a>
+          </div>
+
+          <div class="google-play-cta">
+            <a
+              class="google-play-link"
+              href="https://play.google.com/store/apps/details?id=com.maxq.saldosehat"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Get SaldoSehat on Google Play"
+            >
+              <img
+                class="google-play-badge"
+                src="../images/google-play-badge-dark.png"
+                alt="Get it on Google Play"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="hero-preview reveal">
+          <img src="../images/saldosehat_portrait.png" alt="SaldoSehat Portrait screen" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container section-grid">
+        <div class="section-title reveal">
+          <p class="eyebrow">About SaldoSehat</p>
+          <h2>Clear records for everyday personal finance</h2>
+          <p>
+            SaldoSehat is designed to help you record and review personal cash flow
+            through a simple, local-first experience. It is not a bank, lender,
+            pay-later service, credit-scoring service, or official financial advisor.
+          </p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <h3>Daily records</h3>
+            <p>Record income and expenses with dates, categories, wallets, and notes so your cash flow is easier to review.</p>
+          </article>
+          <article class="feature-card reveal">
+            <h3>Wallets</h3>
+            <p>Separate balances across cash, bank accounts, e-wallets, and prepaid e-money cards.</p>
+          </article>
+          <article class="feature-card reveal">
+            <h3>Targets and budgets</h3>
+            <p>Create savings targets or budget plans and review your progress over time.</p>
+          </article>
+          <article class="feature-card reveal">
+            <h3>Loans and receivables</h3>
+            <p>Record money you need to pay or receive, including notes, status, and due dates when needed.</p>
+          </article>
+          <article class="feature-card reveal">
+            <h3>Export and backup</h3>
+            <p>Create personal exports and backup files, then store them in a secure location you trust.</p>
+          </article>
+          <article class="feature-card reveal">
+            <h3>Ask</h3>
+            <p>Use chat-style help to read summaries from data available in the app. Ask is not official financial advice.</p>
+          </article>
+          <article class="feature-card reveal">
+            <h3>Free with ads</h3>
+            <p>The free version may show banner ads and offer optional rewarded ads for limited Custom and Export usage.</p>
+          </article>
+          <article class="feature-card reveal">
+            <h3>Premium Lifetime</h3>
+            <p>An optional one-time purchase removes ads and unlocks unlimited Custom features and Excel export.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="screenshots" class="section screenshots-section">
+      <div class="container">
+        <div class="section-title wide reveal">
+          <p class="eyebrow">Screenshots</p>
+          <h2>Review balances, income, expenses, and cash flow</h2>
+        </div>
+        <div class="screenshot-grid">
+          <img class="reveal" src="../images/saldosehat_home.png" alt="SaldoSehat Home screen" />
+          <img class="reveal" src="../images/saldosehat_transactions.png" alt="SaldoSehat Transactions screen" />
+          <img class="reveal" src="../images/saldosehat_wallets.png" alt="SaldoSehat Wallets screen" />
+          <img class="reveal" src="../images/saldosehat_target.png" alt="SaldoSehat Target screen" />
+          <img class="reveal" src="../images/saldosehat_loans.png" alt="SaldoSehat Loans screen" />
+          <img class="reveal" src="../images/saldosehat_ask.png" alt="SaldoSehat Ask screen" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="support-panel reveal">
+          <div>
+            <p class="eyebrow">Local-first foundation</p>
+            <h2>Your main finance data stays on your device</h2>
+            <p>
+              Main app data is stored locally. You are responsible for protecting your
+              device, app access, export files, and backup files after they are created.
+            </p>
+          </div>
+          <a class="email-button" href="support.html">Support</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 SaldoSehat. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html">Support</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
